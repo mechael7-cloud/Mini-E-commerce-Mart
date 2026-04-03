@@ -12,7 +12,11 @@ header {
     background-color: whitesmoke;
     border-radius: 8px;
     font-weight: 400;
+   
 
+} 
+header img {
+    mix-blend-mode: multiply;
 }
 .search-button {
     margin-left: auto;
@@ -37,9 +41,88 @@ header {
 .top-main a {
     text-decoration: none;
 }
-
-
-
+.diskon-main {
+    width: 99%;
+    height: 150px;
+    position: relative;
+}
+.diskon-main img {
+    width: 100%;
+    object-position: center;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(2px);
+}
+.diskon-main-text {
+    position: absolute;
+    top: 15px;
+    left: 80px;
+}
+.diskon-main-text span {
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+    background-color:#87A96B;
+    font-weight: 100;
+}
+.diskon-main-text p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+.diskon-main-text button {
+    margin-top: 20px;
+    padding: 5px;
+    background-color: white;
+    color: #87A96B;
+    border: none;
+    border-radius: 10px;
+}
+.mart-header {
+    display: flex;
+    height: 50px;
+    margin-top: 50px;
+    align-items: center;
+}
+.mart-right {
+    margin-right: auto;
+    padding:  30px;
+}
+.mart-left {
+    margin-left: auto;
+    padding: 30px;
+}
+.mart-right span {
+    font-size: 15px;
+}
+.mart-right p {
+    font-size: 20px;
+}
+section {
+    margin: 50px 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    grid-auto-rows: 350px;
+    gap: 20px;
+}
+.card {
+    width: 100%;
+    margin: 30px 0px;
+    height: 100%;
+    position: relative;
+}
+.card #image-plant {
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+}
+.card #image-love {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 290px;
+    object-fit: cover;
+    mix-blend-mode: multiply;
+}
 
 
 
@@ -73,17 +156,19 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 150px;
+    height: 50px;
     text-align: center;
     display: flex;
     background-color: whitesmoke;
 }
 footer img {
-    width: 130px;
-    height: 90px;
+    width: 40px;
+    height: 30px;
+    mix-blend-mode: multiply;
 }
 footer a {
     text-decoration: none;
     color: black;
     margin: auto;
+    font-size: 10px;
 }
