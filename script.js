@@ -10,9 +10,10 @@ const buttonLove = document.querySelectorAll(".image-love")
 
 buttonLove.forEach(img => {
     img.addEventListener("click", () => {
-        if (img.src.includes("love.png")) {
-            img.src = "image/love-background.png"
-        } else
-        img.src = "image/love.png"
+        if(img.src.includes("love.png")) {
+            img.src = "image/love-background.png";
+        } else {
+            img.src = "image/love.png";
+        }
     })
 })
