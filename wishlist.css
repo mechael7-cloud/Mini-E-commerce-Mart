@@ -1,104 +1,31 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 header {
     width: 98%;
     height: 50px;
-    display: flex;
-    margin: 0px 10px;
     line-height: 50px;
+    display: flex;
+    z-index: 999;
+    box-sizing: border-box;
     background-color: whitesmoke;
     border-radius: 8px;
-    font-weight: 400;
-    z-index: 999;
     position: sticky;
-    top: 10px;
-    display: flex;
-    box-sizing: border-box;
+    top: 20px;
+    margin: 10px 10px;
 }
 header img {
     mix-blend-mode: multiply;
 }
-.search-button {
+.button-search {
     margin-left: auto;
-    padding: 0px 10px;
+    padding: 0px 20px;
+    cursor: pointer;
 }
 .top-main {
-    width: 90%;
-    height: 100px;
-    display: flex;
-    margin: 50px 40px;
-    text-align: center;
-}
-.top-main img {
-    width: 100px;
-    height: 100px;
-    margin: 0px 40px;
-    border-radius: 8px;
-}
-.top-main p {
-    color: black;   
-}
-.top-main a {
-    text-decoration: none;
-}
-.diskon-main {
-    width: 99%;
-    height: 150px;
-    position: relative;
-}
-.diskon-main img {
-    width: 100%;
-    object-position: center;
-    height: 100%;
-    object-fit: cover;
-    filter: blur(2px);
-}
-.diskon-main-text {
-    position: absolute;
-    top: 15px;
-    left: 80px;
-}
-.diskon-main-text span {
-    color: white;
-    padding: 5px;
-    border-radius: 8px;
-    background-color:#87A96B;
-    font-weight: 100;
-}
-.diskon-main-text p {
-    margin-top: 20px;
-    font-size: 20px;
-}
-.diskon-main-text button {
-    margin-top: 20px;
-    padding: 5px;
-    background-color: white;
-    color: #87A96B;
-    border: none;
-    border-radius: 10px;
-}
-.mart-header {
-    display: flex;
-    height: 50px;
-    margin-top: 50px;
-    align-items: center;
-}
-.mart-right {
-    margin-right: auto;
-    padding:  30px;
-}
-.mart-left {
-    margin-left: auto;
-    padding: 30px;
-}
-.mart-right span {
-    font-size: 15px;
-}
-.mart-right p {
-    font-size: 20px;
+    margin: 50px 20px;
 }
 section {
     margin: 50px 30px;
@@ -133,11 +60,11 @@ section {
     mix-blend-mode: multiply;
     object-fit: cover;
     cursor: pointer;
-    width: 100px;
-    height: 80px ;
+    width: 130px;
+    height: 90px ;
     position: absolute;
-    left: 280px;
-    top: 330px;
+    left: 260px;
+    top: 230px;
 }
 .dekripsi {
     padding: 10px 0px 0px 0px;
@@ -157,6 +84,23 @@ section {
     color: #7aa953;
     font-weight: 700;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -206,12 +150,4 @@ footer a {
     margin: auto;
     position: relative;
     font-size: 10px;
-}
-#Home {
-    background-color: #87A96B;
-    border-radius: 15px;
-    color: white;
-}
-#Home img {
-    background-color: #7aa953;
 }
