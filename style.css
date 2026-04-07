@@ -12,7 +12,13 @@ header {
     background-color: whitesmoke;
     border-radius: 8px;
     font-weight: 400;
-} 
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    display: flex;
+    box-sizing: border-box;
+    
+}
 header img {
     mix-blend-mode: multiply;
 }
@@ -201,4 +207,12 @@ footer a {
     margin: auto;
     position: relative;
     font-size: 10px;
+}
+#Home {
+    background-color: #87A96B;
+    border-radius: 15px;
+    color: white;
+}
+#Home img {
+    background-color: #7aa953;
 }
