@@ -40,10 +40,10 @@ section {
     height: 100%;
     display: flex;
     background-color: whitesmoke;
-    padding: 20px 30px;
+    padding: 20px 10px;
     margin: auto;
     border-radius: 10px;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-between;
     flex-direction: row;
 }
@@ -59,16 +59,9 @@ section {
     flex-direction: column;
     flex: 1;
 }
-.item {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: end;
+.card-remove {
+    
 }
-.item input {
-    width: 50px;;
-}
-
 
 
 
