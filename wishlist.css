@@ -151,3 +151,11 @@ footer a {
     position: relative;
     font-size: 10px;
 }
+#wishlist {
+    background-color: #87A96B;
+    border-radius: 15px;
+    color: white;
+}
+#wishlist img {
+    background-color: #7aa953;
+}
