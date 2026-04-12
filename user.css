@@ -24,8 +24,67 @@ header img {
     padding: 0px 20px;
     cursor: pointer;
 }
-
-
+main {
+    margin: 4rem 2rem ;
+}
+.info-email {
+    width: 100%;
+    height: 150px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.info-email h2 {
+    margin: 10px 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.info-email p {
+    color: #c2b4b4;
+}
+section {
+    margin: 3rem 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-template-rows: 100px;
+    gap: 100px;
+}
+.the-order {
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.the-order img {
+    width: 30%;
+    mix-blend-mode: multiply;
+    object-fit: cover;
+}
+.saved-address {
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.saved-address img {
+    width: 30%;
+    mix-blend-mode: multiply;
+    object-fit: cover;
+}
+.log-out button {
+    display: flex;
+    width: 100%;
+    height: 3.5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    color: red;
+}
 
 
 
